@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+.mainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(30, 54%, 90%);
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    background: hsl(0, 0%, 100%);
+    margin: 70px 0;
+    padding: 30px 0;
+    border-radius: 15px;
+}
+
+.recipeItemsMainContainer {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    gap: 30px;
+}
+
+.imgContainer img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.aboutRecipeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.aboutRecipeContainer h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 43px;
+    color: hsl(24, 5%, 18%);
+}
+
+.aboutRecipeContainer p {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.aboutPrepContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: hsl(330, 100%, 98%);
+    padding: 20px 0;
+}
+
+.aboutPrepContainer h3 {
+    padding: 0 0 0 25px;
+    color: hsl(332, 51%, 32%);
+}
+
+.aboutPrepContainer ul {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 0 0 20px;
+    font-size: 16px;
+    margin: 0 0 0 25px;
+    color: hsl(332, 51%, 32%);
+}
+.aboutPrepContainer ul li>span{
+    color: hsl(30, 10%, 34%);
+}
+.aboutPrepHeader {
+    font-weight: 700;
+}
+
+
+.ingredientsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+h2 {
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredientsContainer ul{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 16px;
+    color: hsl(332, 51%, 32%);
+    margin: 0 0 0 25px;
+
+}
+
+.ingredientsContainer ul li > span{
+    color: hsl(30, 10%, 34%);
+}
+
+ .ingredientsContainer li {
+    padding: 0 0 0 0px;
+} 
+
+.instructionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructionContainer ol{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructionsHeading{
+    font-weight: 700;
+}
+
+
+.nutrtionFactsContainer{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+
+
+.nutrtionFactsContainer li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 8px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    padding: 8px 30px;
+    
+}
+
+.nutrtionFactsContainer li:last-child{
+    border-bottom: none;
+}
+
+.nutriAmount1, .nutriAmount2 ,.nutriAmount3, .nutriAmount4{
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutriAmount1{
+    padding: 0 0 0 50%;
+}
+
+.nutriAmount2{
+    padding: 0 0 0 53%;
+}
+
+.nutriAmount3{
+    padding: 0 0 0 51%;
+}
+
+.nutriAmount4{
+    padding: 0 0 0 56%;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    background: hsl(30, 54%, 90%);
+    padding: 10px 0;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+
+
+@media screen and (max-width:375px) {
+
+
+    .mainSection {
+        background: white;
+        min-height: 100vh;
+    }
+
+    .mainContainer {
+        
+        width: 100%;
+        background: hsl(0, 0%, 100%);
+        margin: 0;
+        padding: 0;
+        border-radius: 15px;
+    }
+
+    .recipeItemsMainContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .imgContainer{
+        width: 100%;
+    }
+
+    .imgContainer img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .mediaScreen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+        width: screen;
+        margin: 0 20px;
+        /* padding: 0 10px; */
+    }
+
+    .aboutRecipeContainer h1 {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+        color: hsl(24, 5%, 18%);
+    }
+
+    .ingredientsContainer ul{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: start;
+        font-size: 16px;
+        color:  hsl(332, 51%, 32%);
+    }
+
+    .nutriAmount1{
+        padding: 0 0 0 50%;
+    }
+    
+    .nutriAmount2{
+        padding: 0 0 0 56%;
+    }
+    
+    .nutriAmount3{
+        padding: 0 0 0 53%;
+    }
+    
+    .nutriAmount4{
+        padding: 0 0 0 63%;
+    }
+
+    .attribution {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 13px;
+        text-align: center;
+        background: hsl(0, 0%, 100%);
+        padding: 60px 0 15px;
+      }
+    
+}
+
