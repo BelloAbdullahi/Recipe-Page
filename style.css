@@ -172,10 +172,12 @@ h2 {
     padding: 0 20px;
     font-size: 16px;
     color: hsl(332, 51%, 32%);
+    font-weight: bold;
 }
 
-.ingredientsContainer ol li > span{
+.ingredientsContainer ul li > span{
     color: hsl(30, 10%, 34%);
+    font-weight: normal;
 }
 
 .instructionsHeading{
