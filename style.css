@@ -175,7 +175,7 @@ h2 {
     font-weight: bold;
 }
 
-.ingredientsContainer ul li > span{
+.mainInstructions{
     color: hsl(30, 10%, 34%);
     font-weight: normal;
 }
@@ -183,7 +183,6 @@ h2 {
 .instructionsHeading{
     font-weight: 700;
 }
-
 
 .nutrtionFactsContainer{
     color: hsl(30, 10%, 34%);
